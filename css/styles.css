@@ -28,6 +28,10 @@ nav li a{
     color: black;
     font-weight:500;
 }
+a:hover{
+    color: rgb(240, 112, 21);
+
+}
 
 button{
     margin-left: 800px;
@@ -42,4 +46,32 @@ button:hover {
     background-color: rgb(0, 166, 249);
     transform: scale(1.2);
 }
-    
+.banner{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner h6{
+    font-weight: 700;
+    font-size: 26pt;
+}
+.banner p{
+    padding-top: 8px;
+    font-weight: 400px;
+}
+.banner h1{
+    padding-top: 90px;
+    font-size: 57px;
+    font-weight: 400;
+}
+header{
+    background-image: url("/images/bg.svg");
+    background-repeat: no-repeat;
+    background-size:1050px;
+    background-position: right;
+}
+.icons{
+        padding: 50px 200px;
+        display: flex;
+        gap: 20px;
+}
