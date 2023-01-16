@@ -1,0 +1,45 @@
+        /* Basic Design  */
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+        /* Menu Section Design  */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+}
+
+button{
+    margin-left: 800px;
+    background-color: rgb(240, 112, 21);
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+button:hover {
+    background-color: rgb(0, 166, 249);
+    transform: scale(1.2);
+}
+    
